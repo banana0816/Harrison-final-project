@@ -16,3 +16,9 @@ class books():
 
         
         self.Books[self._name] = {'author':self._author,'price':self._price}
+
+        input
+        try
+            if
+            remove book out
+            except
