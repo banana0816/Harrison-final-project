@@ -32,6 +32,10 @@ class books():
 
     def show(self):
         for x in self.Books:
+            print(x)
+            print(self.Books)[x]
+            print(self.Books)[x]["author"]            
+            print(self.Books)[x]["price"]
 
-            print(self.title, self.author)
-            print(self.price)
+
+          
