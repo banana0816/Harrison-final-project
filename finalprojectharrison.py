@@ -25,7 +25,7 @@ class books():
         try:
             str(self.name)
             if self.name in self.Books:
-                self.Books.pop(self.name)
+                self.Books.pop(self.name)  
                 print("the remaining books are:",self.Books)
         except:
             print("please enter a book title")
@@ -36,6 +36,3 @@ class books():
             print(self.Books)[x]
             print(self.Books)[x]["author"]            
             print(self.Books)[x]["price"]
-
-
-          
