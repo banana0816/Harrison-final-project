@@ -44,4 +44,18 @@ class books():
                         file.write(f"{book},{info['author']},{info['price']}\n")
                     print("Books saved to file.")
 
+
+            def load(self,filename = "booksrore.txt"):
+                try:
+                    with open(filename,'r')as file:
+
+                        for line in file:
+                            title,author,price = line.strip().split(',')
+                            self.Books[title]={'author':author,'price':float(price)}
+                    print("Books loaded from file.")
+                except: FileNotFoundError
+                print("FileNotFoundError")
+
+      
+
                     
