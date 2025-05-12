@@ -12,7 +12,7 @@ def Load(self, filename = "books.txt"):
         except FileNotFoundError:
             print("File not found.")
 
-Load()
+b.Load()
 
 print(b.name)
 v = input("would u like to add a book?('yes','no')")
