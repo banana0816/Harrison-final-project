@@ -1,7 +1,7 @@
 from finalprojectharrison import books
 b = books()
 
-def Load(self, filename = "books.txt"):
+"""def Load(self, filename = "books.txt"):
         try:
             with open(filename, 'r') as file:
 
@@ -10,7 +10,7 @@ def Load(self, filename = "books.txt"):
                     self.Books[title] = {'author': author,'price': float(price)}
             print("Books loaded from file.")
         except FileNotFoundError:
-            print("File not found.")
+            print("File not found.")"""
 
 b.Load()
 
